@@ -1,11 +1,31 @@
 :root {
-    --text-color: ;
-    --font-family: ;
-    --body-bg-color: ;
+    --header-bg: #4d66a0;
+    --footer-bg: #151515;
+    --heading-color: #000;
+    --text-color: rgba(74, 74, 74, 1);
+    --font-family: "Roboto Condensed", "Arial", sans-serif;
+    --body-bg-color: #fff;
 }
 
 /* FONTS */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/roboto-condensed-v25-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-v25-latin-regular.woff") format("woff");
+    font-display: swap;
+    
+}
 
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/roboto-condensed-v25-latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-v25-latin-700.woff") format("woff");
+    font-display: swap;
+}
 
 html {
     height: 100%;
@@ -32,8 +52,8 @@ body {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 1.5;
     color: var(--text-color);
 }
 
@@ -49,7 +69,7 @@ a {
 
 .container {
     width: 100%;
-    max-width: px;
+    max-width: 1150px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
