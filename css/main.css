@@ -79,3 +79,17 @@ a {
 .main-content {
     flex-grow: 1;
 }
+
+.site-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--header-bg);
+}
+
+.site-header__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+} 
