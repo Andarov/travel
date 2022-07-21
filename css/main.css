@@ -1,6 +1,5 @@
 :root {
     --header-bg: #4d66a0;
-    --footer-bg: #151515;
     --heading-color: #000;
     --text-color: rgba(74, 74, 74, 1);
     --font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -89,6 +88,7 @@ a {
 .site-header__title {
     font-weight: 700;
     font-size: 24px;
+    white-space: nowrap;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -130,4 +130,20 @@ a {
     padding: 10px;
     border: 1px solid #999;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Footer */
+.site-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--header-bg);
+}
+
+.site-footer__text {
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
 }
