@@ -112,6 +112,7 @@ a {
 }
 
 .content__text-wrapper {
+    padding-top: 50px;
     width: 100%;
     max-width: 400px;
     display: flex;
