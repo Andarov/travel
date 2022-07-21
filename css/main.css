@@ -134,6 +134,8 @@ a {
 }
 
 .content__cities {
+    width: 100%;
+    max-width: 400px;
     color: var(--header-bg);
     margin-bottom: 0;
 }
