@@ -130,6 +130,20 @@ a {
     padding: 10px;
     border: 1px solid #999;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 16px;
+}
+
+.content__cities {
+    color: var(--header-bg);
+    margin-bottom: 0;
+}
+
+.default {
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
 }
 
 /* Footer */
@@ -146,4 +160,110 @@ a {
     color: #fff;
     text-align: center;
     margin: 0;
+}
+
+/* Region */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.region__about-img {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.region__attracions-list {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.region__attracions-item:not(:last-child) {
+    margin-bottom: 8px; 
+}
+
+.region__souvenir-list {
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+
+.region__souvenir-item {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.region__souvenir-img {
+    display: block;
+    flex-grow: 1;
+    width: 350px;
+    height: 200px;
+}
+
+.region__kitchen-list {
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+
+.region__kitchen-item {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.region__kitchen-img {
+    display: block;
+    flex-grow: 1;
+    width: 350px;
+    height: 200px;
+}
+
+.region__gallery-list {
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+
+.region__gallery-item {
+    width: 100%;
+    max-width: 540px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.region__gallery-img {
+    display: block;
+    width: 540px;
+    height: 300px;
+    margin-bottom: 8px;
+}
+
+.region__gallery-img-text {
+    font-weight: 700;
+    flex-grow: 1;
+    margin-bottom: 0;
 }
