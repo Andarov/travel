@@ -196,7 +196,7 @@ ul {
 .region__about-img {
     display: block;
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 .region__attracions-list {
@@ -222,7 +222,7 @@ ul {
     display: block;
     flex-grow: 1;
     width: 350px;
-    height: 200px;
+    height: auto;
 }
 
 .region__kitchen-list {
@@ -239,7 +239,7 @@ ul {
     display: block;
     flex-grow: 1;
     width: 350px;
-    height: 200px;
+    height: auto;
 }
 
 .region__gallery-list {
@@ -256,9 +256,9 @@ ul {
 }
 
 .region__gallery-img {
-    display: block;
-    width: 540px;
-    height: 300px;
+    width: 100%;
+    max-width: 540px; 
+    height: auto;
     margin-bottom: 8px;
 }
 
@@ -266,4 +266,109 @@ ul {
     font-weight: 700;
     flex-grow: 1;
     margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1150px) {
+    .region__gallery-item {
+        max-width: 1110px;
+    }
+
+    .region__gallery-img {
+        max-width: 1110px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .content__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .content__text-wrapper {
+        padding-top: 20px;
+    }
+
+    .content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        margin-bottom: 8px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .region__about {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .content__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .content__text-wrapper {
+        padding-top: 0;
+    }
+
+    .content__text {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content__img {
+        width: 300px;
+        margin-bottom: 16px;
+    }
+
+    .content__wrapper {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content__text {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    iframe {
+        height: 200px;
+    }
+
+    .site-header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .site-header__title {
+        font-weight: 700;
+        font-size: 18px;
+    } 
+
+    .site-footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .site-footer__text {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .content__text {
+        padding: 15px;
+    }
 }
