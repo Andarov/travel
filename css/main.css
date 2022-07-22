@@ -222,7 +222,7 @@ ul {
     display: block;
     flex-grow: 1;
     width: 350px;
-    height: auto;
+    height: 200px;
 }
 
 .region__kitchen-list {
@@ -239,7 +239,7 @@ ul {
     display: block;
     flex-grow: 1;
     width: 350px;
-    height: auto;
+    height: 200px;
 }
 
 .region__gallery-list {
@@ -278,7 +278,37 @@ ul {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .region__souvenir-list {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    
+    .region__souvenir-item {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .region__kitchen-list {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    
+    .region__kitchen-item {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 690px) {
+    .region__kitchen-img {
+        height: 140px;
+    }
+
+    .region__souvenir-img {
+        height: 140px;
+    }
+
     .content__img {
         width: 300px;
         height: 300px;
@@ -330,6 +360,26 @@ ul {
     .content__img {
         width: 300px;
         margin-bottom: 16px;
+    }
+
+    .region__souvenir-list {
+        margin-left: -10px;
+        margin-bottom: -10px;
+    }
+    
+    .region__souvenir-item {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .region__kitchen-list {
+        margin-left: -10px;
+        margin-bottom: -10px;
+    }
+    
+    .region__kitchen-item {
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .content__wrapper {
