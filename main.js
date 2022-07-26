@@ -4,12 +4,16 @@ const elRegion = document.querySelector (".region-wrapper");
 
 elForm.addEventListener ("submit", function(evt) {
     evt.preventDefault();
-    console.log("salom");
     const inputText = elInput.value;
     elRegion.innerHTML = " ";
     switch (inputText) {
         // Toshkent
         case "Toshkent":
+        case "toshkent":
+        case "TOSHKENT":
+        case "Тошкент":
+        case "тошкент":
+        case "ТОШКЕНТ":
             elRegion.innerHTML = `
             <div class="region">
                 <!-- About -->
@@ -126,6 +130,11 @@ elForm.addEventListener ("submit", function(evt) {
             break;
             // Andijon
             case "Andijon":
+            case "andijon":
+            case "Andijon":
+            case "андижон":
+            case "Андижон":
+            case "АНДИЖОН":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
@@ -242,6 +251,11 @@ elForm.addEventListener ("submit", function(evt) {
                 break;
             // Namangan
             case "Namangan":
+            case "namangan":
+            case "NAMANGAN":
+            case "НАМАНГАН":
+            case "Наманган":
+            case "наманган":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
@@ -354,6 +368,14 @@ elForm.addEventListener ("submit", function(evt) {
                 break;
             // Farg'ona
             case "Farg'ona":
+            case "farg'ona":
+            case "fargona":
+            case "fergana":
+            case "Fergana":
+            case "Фергана":
+            case "фергана":
+            case "фаргона":
+            case "Фаргона":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
@@ -434,6 +456,11 @@ elForm.addEventListener ("submit", function(evt) {
                 break;
             // Samarqand
             case "Samarqand":
+            case "samarqand":
+            case "SAMARQAND":
+            case "самарканд":
+            case "Самарканд":
+            case "САМАРКАНД":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
@@ -522,6 +549,11 @@ elForm.addEventListener ("submit", function(evt) {
                 break;
             // Buxoro
             case "Buxoro":
+            case "buxoro":
+            case "BUXORO":
+            case "БУХАРА":
+            case "Бухара":
+            case "Бухоро":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
@@ -610,6 +642,11 @@ elForm.addEventListener ("submit", function(evt) {
                 break;
             // Xiva
             case "Xiva":
+            case "xiva":
+            case "XIVA":
+            case "хива":
+            case "ХИВА":
+            case "Хива":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
@@ -698,6 +735,11 @@ elForm.addEventListener ("submit", function(evt) {
                 break;
             // Qo'qon
             case "Qo'qon":
+            case "qo'qon":
+            case "QO'QON":
+            case "QOQON":
+            case "Qoqon":
+            case "qoqon":
                 elRegion.innerHTML = `
                 <div class="region">
                     <!-- About -->
